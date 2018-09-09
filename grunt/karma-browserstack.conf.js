@@ -22,10 +22,9 @@ module.exports = function (config) {
     // list of files / patterns to load in the browser
     files: [
       'js/tests/vendor/jquery.min.js',
-      'js/tests/unit/config.js',
       'js/tooltip.js',
       'js/!(tooltip).js',
-      'js/tests/unit/!(phantom|config).js'
+      'js/tests/unit/!(phantom).js'
     ],
     customLaunchers: browserConfig.list,
     browsers: browserConfig.keys,
